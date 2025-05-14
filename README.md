@@ -1,16 +1,17 @@
-## Hi there 👋
+# Operating System Project Documentation
 
-<!--
-**Tyobsta-Wodaj/Tyobsta-Wodaj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## a. Zorin OS Installation
 
-Here are some ideas to get you started:
+This documentation explains how to install Zorin OS using VirtualBox.  
+First, the Zorin OS ISO file is downloaded from the official website.  
+A virtual machine is created in VirtualBox with adjusted RAM and storage settings.  
+The ISO is booted, and the guided installer is followed to complete the OS setup.  
+This process provides a Linux-based environment for system-level development.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## b. System Call (Implementation)
+
+System calls are interfaces between a user program and the operating system kernel.  
+In this project, basic system calls like `fork()`, `exec()`, and `getpid()` are used.  
+`fork()` is used to create a new child process, and `exec()` replaces the current process image with a new one.  
+These calls demonstrate how user-level programs interact directly with the OS.  
+This project helps understand how system-level tasks are handled in Linux-based systems.
