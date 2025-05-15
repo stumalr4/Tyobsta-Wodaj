@@ -9,9 +9,9 @@ The ISO is booted, and the guided installer is followed to complete the OS setup
 This process provides a Linux-based environment for system-level development.
 
 ## b. System Call (Implementation)
-
-System calls are interfaces between a user program and the operating system kernel.  
-In this project, basic system calls like `fork()`, `exec()`, and `getpid()` are used.  
-`fork()` is used to create a new child process, and `exec()` replaces the current process image with a new one.  
-These calls demonstrate how user-level programs interact directly with the OS.  
-This project helps understand how system-level tasks are handled in Linux-based systems.
+ 
+System calls are interfaces between user programs and the operating system kernel.  
+This project uses the `uname()` system call to retrieve system information such as OS name, version, and architecture.  
+The `uname()` call fills the `utsname` structure with these details.  
+A simple C program was written to display the output of this system call.  
+It shows how a user-level program can request system-level information through the Linux kernel.
